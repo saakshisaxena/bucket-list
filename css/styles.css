@@ -5,3 +5,11 @@ body {
   padding: 3rem 10rem;
   text-align: center;
 }
+
+form {
+
+}
+
+btn-primary {
+  float:right;
+}
