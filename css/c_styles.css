@@ -1,0 +1,52 @@
+title {
+  font-family: 'Ma Shan Zheng', cursive;
+}
+
+h2 {
+  font-family: 'Ma Shan Zheng', cursive;
+}
+
+body, html {
+
+  position: relative;
+  text-align: center;
+    background-color: azure;
+    background-image: url("https://media.giphy.com/media/m1uJD4HjfUqJy/giphy.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    font-size-adjust: auto;
+    font-size: xx-large;
+}
+
+.send_button {
+   text-align: right;
+   font-size: x-large;
+}
+
+#bt1{
+  font-size: xx-large;
+}
+
+h1 {
+  font-family: 'Amatic SC', cursive;
+}
+
+#text1 {
+  font-family: 'Lacquer', sans-serif;
+}
+
+#text2 {
+  font-family: 'Lacquer', sans-serif;
+}
+
+
+
+$(document).ready(function() {
+    $('#bt1').click(function() {
+        $('#fr1').attr('action',
+                       'mailto:test@test.com?subject=' +
+                       $('#tb1').val() + '&body=' + $('#tb2').val());
+        $('#fr1').submit();
+    });
+});

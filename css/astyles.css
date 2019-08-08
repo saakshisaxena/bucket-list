@@ -1,0 +1,19 @@
+h1 {
+  font-family: 'Amatic SC', cursive;
+}
+
+h2 {
+  font-family: 'Ma Shan Zheng', cursive;
+}
+
+p {
+  font-family: 'Lacquer', sans-serif;
+}
+
+body , html {
+  font-size: xx-large;
+  background-image: url("https://image.shutterstock.com/image-photo/blur-pastels-gradient-sunset-background-260nw-524929015.jpg");
+  background-repeat: no-repeat;
+    background-size: cover;
+    width : 100%;
+}

@@ -1,0 +1,25 @@
+
+
+h1, html  {
+  font-family: 'Amatic SC', cursive;
+  font-size: xx-large;
+
+}
+
+h2, html {
+  font-family: 'Ma Shan Zheng', cursive;
+  font-size: x-large;
+}
+
+.list-group {
+
+  font-family: 'Lacquer', sans-serif;
+  font-size: medium;
+}
+
+#tdl {
+opacity :0.9;
+
+border-radius: 10%;
+
+}
