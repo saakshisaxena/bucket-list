@@ -1,0 +1,51 @@
+title {
+  font-family: 'Ma Shan Zheng', cursive;
+}
+
+h2 {
+  font-family: 'Ma Shan Zheng', cursive;
+}
+
+body, html {
+padding-top: 5rem;
+  position: relative;
+  text-align: center;
+    background-color: azure;
+    background-image: url("https://media.giphy.com/media/m1uJD4HjfUqJy/giphy.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    font-size-adjust: auto;
+    font-size: large;
+}
+
+.center {
+  text-align: center;
+}
+
+
+#bt1{
+  font-size: large;
+  background-color: green;
+
+}
+
+h1 {
+  font-family: 'Amatic SC', cursive;
+}
+
+#text1 {
+  font-family: 'Lacquer', sans-serif;
+}
+
+#text2 {
+  font-family: 'Lacquer', sans-serif;
+}
+
+
+
+.navbar-brand{font-family:'Amatic SC', cursive;
+ font-size: 30px;}
+
+ img {
+   width:20%;}

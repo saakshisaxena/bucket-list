@@ -1,0 +1,21 @@
+
+
+
+.navbar-brand{font-family:'Amatic SC', cursive;
+ font-size: 30px;}
+
+
+  .navbar-brand img {
+    width:20%;
+  }
+
+body , html {
+  padding: 5rem;
+}
+
+#tdl {
+opacity :0.9;
+
+border-radius: 10%;
+
+}
