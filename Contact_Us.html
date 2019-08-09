@@ -3,6 +3,8 @@
 <head>
 
   <title> Contact Us ;) </title>
+  <link rel="icon" type="image/png" href="https://static.thenounproject.com/png/2142-200.png" sizes="16x16">
+
   <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="css/c_styles.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Ma+Shan+Zheng&display=swap" rel="stylesheet">
@@ -20,13 +22,43 @@
 !
 !
 !-->
+
+
+
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="#">bucket list
+        <img src="images/bucket logo.png"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+
+     <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a href="index.html" class="btn btn-dark btn-md" role="button" aria-pressed="true">Friends</a>
+          </li>
+          <li class="nav-item">
+          <a href="list.html" class="btn btn-dark btn-md" role="button" aria-pressed="true">Your Bucket List</a>
+          </li>
+          <li class="nav-item">
+          <a href="About_Us.html" class="btn btn-dark btn-md" role="button" aria-pressed="true">About Us</a>
+          </li>
+        </ul>
+        <a href="Contact_Us.html" class="btn btn-dark btn-md" role="button" aria-pressed="true">Contact Us</a>
+      </div>
+    </nav>
+
+
+
+
 <link rel="shortcut icon" href="[favicon.ico](http://www.sitepoint.com/forums/view-source:http://www.pmob.co.uk/favicon.ico)" type="image/x-icon" />
 
-<div class= container>
+    <main role="main" class="container">
 
-  <h1> Bucket List </h1>
+  <h1 class="center">  <strong> Feel free to  Contact Us:</strong> </h1>
 
-      <h2> Contact Us</h2>
 
 
 
@@ -46,16 +78,14 @@
 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
 </div>
 
-<input type="button" id="bt1" value="click" />
+<input type="button" onclick="sendMail()" id="bt1" value="send" />
 
 </form>
 </div>
 
 
 
-<div class= send_button >
 
- <a href="#" class="btn btn-success" role="button" aria-pressed="true">Send</a>
 </div>
 
 
@@ -80,6 +110,8 @@ put spaces between the lines !!-->
 <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
 <script src="https://getbootstrap.com/docs/4.1/assets/js/vendor/popper.min.js"></script>
 <script src="https://getbootstrap.com/docs/4.1/dist/js/bootstrap.min.js"></script>
+<script src="./javascript/emailUs.js"></script>
+
 </body>
 
 </body>

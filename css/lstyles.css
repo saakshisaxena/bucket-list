@@ -1,20 +1,16 @@
 
 
-h1, html  {
-  font-family: 'Amatic SC', cursive;
-  font-size: xx-large;
 
-}
+.navbar-brand{font-family:'Amatic SC', cursive;
+ font-size: 30px;}
 
-h2, html {
-  font-family: 'Ma Shan Zheng', cursive;
-  font-size: x-large;
-}
 
-.list-group {
+  .navbar-brand img {
+    width:20%;
+  }
 
-  font-family: 'Lacquer', sans-serif;
-  font-size: medium;
+body , html {
+  padding: 5rem;
 }
 
 #tdl {
